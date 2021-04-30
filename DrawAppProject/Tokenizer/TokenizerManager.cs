@@ -8,7 +8,7 @@ namespace DrawAppProject.Tokenizer
 {
     public class TokenizerManager
     {
-        public List<Token> Load()
+        public List<Token> Load(string sourceCode)
         {
             return null;
         }
