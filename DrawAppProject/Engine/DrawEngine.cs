@@ -4,12 +4,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DrawAppProject.Tokenizer;
 
 namespace DrawAppProject.Engine
 {
     public class DrawEngine
     {
-        protected List<Shape> shapes = new List<Shape>();
+        protected List<string> shapes = new List<string>();
 
         public DrawEngine()
         {
